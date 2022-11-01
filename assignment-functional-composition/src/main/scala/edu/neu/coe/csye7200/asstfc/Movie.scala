@@ -133,7 +133,7 @@ object Movie extends App {
     // 5 points
     // TO BE IMPLEMENTED
     for( m <- ms) { val mj = MoviesProtocol.serializeAndDeserialize(m)
-      if(!m.equals(mj)) false
+      if(!m.equals(`mj`)) false
     }
     true
   }
